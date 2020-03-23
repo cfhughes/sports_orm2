@@ -25,4 +25,6 @@ def make_data(request):
 	team_maker.gen_teams(50)
 	team_maker.gen_players(200)
 
+
+
 	return redirect("index")
